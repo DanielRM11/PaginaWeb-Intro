@@ -1,64 +1,81 @@
 <!DOCTYPE html>
+<!--Lenguaje-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ingeniería Biomédica</title>
+    <!--Título en pestaña de la página-->
+    <title>Ingeniería Biomédica: ¿Qué es?, campo laboral e importancia</title>
 </head>
+
+
+<!--Contenido visible de la página-->
 <body>
     <!--Cabecera-->
     <header>
+        <!--div: Contenedor genérico-->
+        <div style="text-align: center;">
+            <h1 style="color: rgb(132, 0, 255);"> INGENIERÍA BIOMÉDICA &#129470; &#129504;</h1>
+            <img src="https://queretaro.anahuac.mx/hubfs/Ilustraciones%20para%20web%20de%20carreras_ING%20BIOMEDICA.png" alt="Ilustración de Ingeniería Biomédicas" width="700 px" height="">
+        </div>
 
-        
-        <h1 style="color: blue; text-align: center; "> Carrera: Ingeniería Biomédica &#129470; &#129504;</h1>
-        <img src="https://queretaro.anahuac.mx/hubfs/Ilustraciones%20para%20web%20de%20carreras_ING%20BIOMEDICA.png" alt="Ilustración de Ingeniería Biomédicas" width="250 px" height="">
-    <nav>
-        <ul>
-            <li><a href="#definicion"> Definición</a></li>
-            <li><a href="#pilares"> Pilares</a></li>
-            <li><a href="#campo">Campo laboral </a></li>
-            <li><a href="#informacion"> Más información</a></li>
-        </ul>
-    </nav>
+        <!--barra de navegación-->
+        <div style="font-size: 20px; text-align: left;">
+            <nav>
+                <ul>
+                    <li><a href="#definicion" > Definición</a></li>
+                    <li><a href="#pilares"> Pilares</a></li>
+                    <li><a href="#campo">Campo laboral </a></li>
+                    <li><a href="#informacion"> Más información</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
     <section id="definicion">
-        <h2 style="text-align: center;">Definición</h2>
-        <p style="font-size: larger; color: blueviolet; text-align: center;">
-            La <strong>ingeniería biomédica</strong> es una disciplina que aplica los principios y técnicas de la ingeniería al campo de la medicina.
-             <br>Esta profesión se dedica, principalmente a desarrollar dispositivos, equipos y sistemas que mejoren la atención médica,
-              el diagnóstico y el tratamiento de enfermedades tales como:<br>
+        <div style="text-align: center;">
+        <h2><u>Definición</u></h2>
+
+        <p style="font-size: 20px; color: rgb(20, 4, 84); text-align: center;">
+            La <strong>ingeniería biomédica</strong> es una disciplina que aplica los principios y técnicas de la <em>ingeniería</em> al campo de la <em>medicina</em>.
+             <br>Esta profesión se dedica, principalmente a desarrollar dispositivos, equipos y sistemas que mejoren la atención médica,<br>
+              el diagnóstico y el tratamiento de enfermedades :<br>
+
+              
               <ul>
-                <li><u>Equipos médicos</u></li>
-                <img src="https://storage.googleapis.com/www-saludiario-com/wp-content/uploads/2022/04/6405df50-equipos-me%CC%81dicos.jpg" alt="Equipos médicos básicos" width="250 px" height="">
-                <li>Prótesis</li>
-                <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxASEhIQEBAPDxAQEBAQEBAPDw8PDw8OFREWFhURFRUYHSggGBolGxUVITEiJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGhAQGi0gHSYtLS0rLS0tLS0rLS0tLS0tLS0tLS0tLS0rLS0tKy0rKy0tLS0tLS0tKy0tLS0tLSstLf/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAADAAECBAUGBwj/xAA/EAACAQMCBAUCAgkCAwkAAAABAgADBBESIQUxQVEGEyJhcTKBkaEHFCNCUmKxwdEz8HKCkhYkU2NzorKz4f/EABkBAAMBAQEAAAAAAAAAAAAAAAABAgMEBf/EACIRAQEBAQACAwACAwEAAAAAAAABEQIDIRIxQSJxUWGBE//aAAwDAQACEQMRAD8A7xUiaJ3xBBszPGiYEniMknKShiCcQxgnjAREgYQyBECIRmjiM8Azr2tiaFg+QJicUM1+F/SIiaJg2hGgyYU3nX6R63rRfbM4C8+r7Trf0g183OP4VAnI3XOTF36Ztyk2PB/FjRqhD/p1Dg+zd5n3Q9PvmBtlIqICCNxNL759s5/HqY9kY6hKwslJ1DY+0Bwq49IVuwwZrIpE4/6d8uU9pSboTNq2pHrKlocdJpK4lcjrq1GpTle6qaVOOcsu/aUb0bGKpjw/xdULXVUnvMqkuSB3M62+4C9xeVVUE+nVt0mPR4a9Kv5dQEFT16zr5v8AFxdz+d/tdQYKjtibdlUyjfBmdUpYZfcy5Z7A++ZjY6IxcCKWfKimjLHutQZjqsOqRmWPC1AR8yMkogRxIusMqxOIYeqZkDC1IMwIwjPJRmgGHxNf6zX4YNhM7iC5/GanDxsIEuNAVDtDtKPEaulGbsDFVR494uuNd0+DnDYmTcDeWGpPUq1Kmlm1Mx2B5Z2lm24DcVQX0FVHcRzkXpW4HwtrisiAHSGBY+09I434HpVkQ0wEq0xlWA2PsZa8J8DSjSU49RwWPXM61V2wI8TK80oWjp6HXSy7H39xNG3Z15HI7GdnxHhSVVyRhwPSRznNtalTpYYInL3xea7OPJOolQrMegmjRBlKimJcR8SZp3B2mdxK5CjA3Y7ADmT2ElcXRJCqCzNsAOZM1eF8FFMirVw1Tt0T2H+Zpzx8kdd/FV8NeHfKV6tUDzapy38q9FnN+NeA/tFrKu457dJ6dKt5ZrUGGGZ0yZMc1tt14Ze0DrTb96FWgRkY6meh1fCVNnOScA5AkLrwZq3SqV9ioIzD4zB87rzDyD7xTvf+w9f+On/0n/MUPgfzjuhERHjwSGUklWSigCkWElGMAqVRBmGrCYnE/ElnQby61dUfbKgM7DPLOkHH3iDUETTMtPEFnU2S5oEnoaiq34NgzTzkZG47jlEbPukmhZDaR/VSxl2jb4EchItB1LYMMEZHaWtEfTHgZQ4ZSHJFHwBD/qahcBRj4lt1k3HKMsZ9smBjtNGgPylYphvYy7bjaAM8p8Rtg6E49S7y6Y+2DFZsxUuXXKEYle6uCNhuzHAA6k8pfulGSRyzt8R/DtgKlRqrDIpnCdtXUzlnO3HVesmr3AOD+X+1qb1WH2UdhNS4MsmV7hdp1SSeo5bbfdGt2yoMm0FZ/TCMYyVnG+YRhGqRc4yRzFH8mPAARRRRAooooAojHjGAVq08y8deDLh6z3VqnnCpg1KWQHVwACVzzBAG3POZT/SnTuFuiarv+ruENA4Y0lwoDU9uTasn3DDttxlDiNRP9OvUQ/yVKi/0MciLfwStw25TOu0ukxz1UKqgffELwrjlSgf2detbn+U6qf3XkfwM0bHxrf0yMXhcD92sBUB+Sw1fnJ8WvqF2PNuLTRVwM3Fk4C1COlSm2R/zA5+Y0+nV8G/SLXGlbiilwpIUVbYhW32GUO2f+mei8O4lRrIro2NQ+lwabg8ipVtwQQQR7TxDhfCbNzqo1blHHOmKgUj4Ojf856nYVQ9JVoVkNVBhkuBqeoepZs7seeYXPxXNv66hlkFPSYfDOJFnqUXVrWtSXWVJJpPTHN0J2wOo6TSs75aqJUUOq1EV1LoVyGGRt0PsYl/a468o1VZOkZOosRqrpnEPSP7sgRErbwCbCQUdIZ1kEEA5ribaA2emZucAo6KCDqRqPydz/WZviG3yUHSoyr+f+J0FNcADsJlxzlrXvreYkBGcSYgqhycTVkekMfBiBkm2EGggCbeERcRwsRMAeKD1RQCtFBeaIxrRAaNmANeCevGS0aggnuBKFaq3SVSlQxBwf6R+PXi3DUFfy6GlWUALiqpUZZsjf1ahj2HecXTuMHL0LasM8npBf/rKmey8S8P0rlQtdA+M6TyZc88HpOcr/ouoH6a9wg7MKdT88AypYi81yBqcPqIVqWdS0bpWtqr1VB/mpVDy+DmUbPgjlj+r3dAn931VqbPvjBUrkH23m3xrwRfWJ8+1dqyDmaa4de+qnvqH4+4Ez1uxVAF3Y1aTHlcW1F0yO7Uj6W+VI+JUTf6dZ4M4ZVWqqXAs2AY1AwDeaKunSArEADOdzjoJ1XFre1Rtd1bNR5AXVP1bdNTphgPkYmJ4Y4fRrUH1XFVqSkIlSqpoujBfXoZlDMuSPqyBjHSblhwm8pLild07y3IxouFV9v8AjTb/ANsX6qfRccttK0HWqaodvKooWRvPSovqRXP8gJ3PSWrTxZSpKKPEB+rMVJxU3WogOC1MrnONvTz3E5wcQe0r0qVaizNSao1tSoaqypRqnDOoxzXTgDoHM6DxfVoV7Gs9WixanSZ00berGA3qwRzyfbPOK/7PmW7Y5Sh4xuf1utVtBVubIHIpVfq0AYLqTumSCQPynpXCOKUrhNdM7jZ0Oz027MJ4V4ea5R1FJXbzOSc0qFcf0znM9H8PcOrahcZa2q7goNLq4zycciPg/eO/HP8AY5+VvqencMsC4lbg3GadxqUECrTLLUp5zgg4LKeq+8vVEkrToHIiAg7Y74hnEAq3VAM1P+V9X4A/5lyApbsfaHAgDmAp88wlZtpGksAk++0koxHkGMAYtvE0gZLMAhHixHgTCTMKqGOghliAQpyQpwkRMAgKccII+YswDyv9LNvcearMajWjIugDPlJUH1BhyBOxBPP7Th7S8en/AKVatS/9J3T/AOJn0TUUEEEAg7EEZBHuJmvwCzOSbS2yeZ8inn8cSpUXm68z4L4svyMU7ylVPIUrsLqPwdif+qaNjxhFYrX4fVonGpmtHqNgDmwpHp8Eyfi3wbw2kRUNdrcOT+yLBs+6ZBPPHPMocIs6K+ijxSoFYYZBoB0H6lGo7ZG2wlek/wAo6riPErmySlVtqVxdo+fMpmkHemmARnG++fymdW8a2o/7xSp17O7BGql5bCncHl5bp3PQ8wes7G3vQ65p1qGrnoqIQp9tQMprd/rB0PR8k0nw41B6bsMFWRhzX7DeResmtOeduRLhVKo+utV2qVtLOucqgC4FMD2H4kmB8b1AtjWUglnUU6YTOp6jMNIAHPv8AzdooAOwG5PtKDYrOHx6Uz5efcYL/JH5fMw+WXa6vj6yMjwnwI0aSGrhq2nBPPQpOfLX2zz7n7To3qLTRmdgtNVLMx20qBk7w9FBicD4j4095WawtkLAYLVdX7JQDuz45rnku2SPwclt21N6nMyRicM4m9xcvUs8q2t6q49JpoWOM/4nrfDLyqyoKwQMQAzLkDV9/eYnh/w/TtaYSmo7uxHqdjzY/wC9poXqgqaXV1ZR3UEbsPj/ABKvk0ufFJ/bXdcHMKW2zMvhV4G1W7Prq0cAk/U6FQQT7jODLwbYiaMhrVds9zCMekVIYAjdYggwyYUbRgIzNGDExjEsYwCLRZjNBu0CS1xSvvHgFNYUGARoZYiSzGjGImBlmLMjmLMATtIUnycRVJCiPVAPL/0mcLvTcPXakz24AFN09aouOTAbrvn2nCK/P3n03jInK8Y8CWFdi7UvLc7lqJ8vJ7kDYn7StReXi3DFqmqiUXZHd1UMhI5nmQOYA337T27gQUKF7YA7/J95zg8MWtpWPkh2cDGqo2rRkb6cDsec6Cxo43zic3l73rI6/Dx8edv60+OVNFEgHd2RPkMwB/LMFw4kYzynP0b83VyxH+hbk06f89QbVKnuM+kfB7zp6IVVLMQAoLEnkABkmR99NvrnHP8A6ROPPRppbW+RcXR0KRzRMgE+2eWfk9JZ8JcIpUKYRBl29TufqqP3P9pyHhzVfXte/qg6VY07dTvoQcsf8p/FmnpFrTCjUSFABJJ2AA5ky7feM+Z6+V/4hx3iyWlLWRrqORToUh9VasfpQe3UnoMmD4TQqBQ9Ri1VvU7csMegHRRyAnO8GuGva737D9kC1GyBHKiD6quDyZyPwCzq7q6FKk1Q74Gw7sdgPxhPdO34864rxZxCpRvRUonS1NEDEci25Oe+xAnWcG8T0K5pIXWnXq5/ZE4JZcZ0/iNvec3W4b5hNRzksdTHqc85xfFbZqd9TRSdXmhsBgpUADIz0O2PkTt+Hp53/pvVr6CjTlfC/iM1nNCqCWC+mpjGogbq3v1nUEzKzG0ssImQaOIxgZCRZoQ8oEQCBOYUUBBDnLSQJD9XEaHjwNydJjmX0ldEEOsSUjGMUYmANmLMbMbMDJjEh3kWMVIxBo0jtI1BGtzCsJQcbcUya9QH+Mn7Hl+WJYuvoIU4JGM9R8TavLEPuPS4GA3cdjObuQ6vocY/ofgzl74vN118dyzBuC2KrsowBNXiiDyWVgGVlIZSMhlxuCOxjcMpgL8yVwwc6OnWKeoq++mV4c4YtKmqqoUbkgAAZJydvvC+K6T1KItUOn9YYJVbqKHOoB7kDTn+abCoABttAVqepgw/dhPUFs6vs3D7VEVUVQqqAoA5ADkJyHjPxCoc0UORRbB7NV6/hy/GdvuEYrjUFYrnlqxtn7z5+4lxIsxOQMknIOonO+c950eGT7c3nt+nXp4o04BY6+bEfSg6feUuD5q1WuX2atgW4K68pkht+WTzx27TmrO2apliM06ZUvTBxUZepx1E6qwuwi5QVKlAELjm9AHkdtyOx6TojkresCUq60OXT98ZDEAYy38QyT8dZ23B/EyVPRVxTqZwD+63uJj+G7dFpgu2p2xhnUawvIIfcRuM8E21Uua7gY68+f8AeK5T53l3KnaLE4PgnihqLCjX1FTsGIxjsD2/oZ29vcK66lIIP4yMbS6LBiEzIlYgHjeWKUrmWKQ2gYkUbMUQc4sKDAB4/nCCRiYxMp1b5R1lC54yg6iAa7VBAvcgdZyl54kA5GYl14kY8jJ1UjubniSjrLnDautA3eeU1eJVH7z0/wAPUytvTB56RmEPMa9F8S0GlES0oOJcSmRKPFqCNTYuNlUsD1U46S4SZj+JrkikE6ufyG/+JPdzm1XHuyMiwv2AxncfmJOndENkb55zJoneXh7Tj12Y2H4h6cQtleKdsTMoqT0mlaUW2AEubU300aKhjgjIPMHkRPO/F/6Okp5r2VN3BJ10F9TKD1p53x7bz0mmmke/WSZp1cTI5O78q+e6lrWz66dWn6dmak6nblqyPtmanCwurWQFqMMFVOEdhzyOjT2TiXDkuaZRsagDpbsf8Tx7jfDqlrWNN1GDuuoelh2//RNNZZldbwziqqmkglOR6Mh98bze4TxxXGDjKjA6Fh0Izznl1B8ZwzAgfVknT2DgZDL/ADCX7S6IOBpUgBsBmw3XUhPP4k4evQ+J8Fp1wSmAcHY49OeePv0M5u2va9m2iplqYwBz556Enb4P2zNLg3iIbCpyOQTuAf8ABm7dWdK4UdGIBBwDt2Pcbxy/5Fn7BPDPiFLkvSyPNpjOP4k6MPxwe06CcH4d4YaHEqZwQHta6/xDK1KfI8+vIz0ERdelc3YrssMvKIrGOYlFmKDye0UZPNrnxEo6zKuvFXYzkdLtzJhqViTMzxoXXiGo3ImUXuqr9TLlDh3tNChYe0WqxiJas3PMt0eG+03aVkO0uU7USdNi0OHe09JskxTQdlE5inR3HyJ1dL6R8SuS6EUy4HGJnl4egp6zRAlV5yHFbo1Kh7L6V+J1HGMikzDmBj8es45V3nP57+Ojwz9SVMbw1pucSIWW7eiOc543alvRwMzUsafM/aZtA7TatFwg9950+Ke2HlvpFoFoZ4IidDnPbnBmd4h4LSu1NOoN8ZVh9St0Il+nII2XPsIF9vFuN8JrWlTy6wJXP7OoAMMPY9PjkYOnUOw2x0pgkKxG4KkH0N7T2bi9hSr0mp1VDgg8+YPtPIeO8EqWjFly9AnBJGSnYOOo94/tN9LFC4OOZztqch9v5ai9D7zd4Vxt6ezDUoGyt9S+4PUdJyNtXzjbcDbHqcr77etfbmJdp3A2A5HkF+kn/wApiNjkfSYZo3HpXBr5K97SKMG8u1rFsdC9SmBkdPpM68Heeb/oop66t5cZJUGnRQkBTsCzZHf1CeiofVFVcjSLCTkWkqRxFHzFGHh1Gw9pdpWftL6URDrTmKtU6dtLKUYcJJhYDQ1pwgWTAkgIy01Jdx8ib5OwmLQX1D5E2gNxK5KjWtHmx6f1hqXOSdcKF77mPREsk3QMrKeRBE4w0t52w2mJxbhRQmomShOSOqE/2mXm52a28XWXGQiSzSEQSEpLvObHQvWy5wO832XAAmHacx8ibrnadXinpzeW+1apBkbSdSRVpqyCg7cbmHcQdEbmIJkZ2lDi/ClcHYbjBB3DDsRL5jPuuCcHlHCv08X49wPyHPlnSpJOk9Pg9DMmpcEAjGWO2nTnUfcA7NnqJ6Xxnw7Xqs2ACD1JAEo+EfBdRbkVblV0Uc+WAclnzsx9h09/iVbGcldl4F4SbWypowxUcebV7+Y2+PsMD7ToqI6yAGfiSzIrWQbMi0grQggZsRSWIoB5iqwiiNHEyCQjgxgJILAJCTAkRJCBp0zuPmb1quSPxmBNzg9XIOeYlclV2p9UkgxsJBRky0iiWRU0784YdjuIHMktSAZPEOFaSXpjK8yvUfEooonU5lC94er7qdDfGQfkTLrx/sbc+T8rOtqZaogH0qdbn7bD/faboG2e8r8PsdAwSGJOWOMZluqdpfMyM+rtU6sFCvB4loMpkkXcyBENb75ipwxWQziHMHVSBmqEFYrReZ95GkN8HkYZgF5MPxgQ3mYjB5VaoDyMddQjGrNJpYVpRNTA3ktWd1b7RBc8yKUNT9o8eDXCAQgEsNbjpG/V5kYYjgyXlGNpMAeOIwkgIA4mnwesASh/e5fMzQJJXwQRzEJTdQFxCUqneVLStrUMPv7GXKeMb85qg7HMcbSSsO0kcQMy7yQWIEQVe5C+kbsenb3gBi2IKq8gp6mQdoYWokxow3hgkYD0yVo2WYfET8oOw+o+8QXCkhUWGIjMIjVdEC6S7pgXWMlNqcJSuWXZhkd+sJpjmlmAGR0fkRBPbkbrBG2hgtQcjq9jzgA9T9opLzX/APDP5RQJzRiDSRWNpmWLLMREbRFiAQKSBhwIikABGMMacYrmBi8NujTYHPpPMf3nT03BGROPanDU69QDAZgPmVzcTXVPUHcAxvPE5hQ3PJz8zL4/VvSpWkrFSNypGcStJtcf8YUaPoUipU6hTsnux/tLnCH1jzM6tQzmeRXNu6n1oyn+YETX4H4huKI0qQy9m6feVE16wzyBM4il42I2q0yPddxNC08ZWznGvSezbR4XydNT5yyzTIo8TptydT8ES2lwDFipVhpG1Hr+0iKoj2jZf4ERtCMwjgxExGhiRZYSNGFYrCUxJskVMYgRaZMCNFqiNKKR8wd40YcpIRRSAeNFFAHiMUUQPBNHigEo6xRRwqKkMseKUTL4v9J+JwzfUf8AijRS4imuef2mXT/uf6xRSqUa9nzT/fWeg8K+kRRQon200ljh/wBR+IopFXGiJIxRRLJYoooApExRQIpXrxRQCtFFFGT/2Q==" alt="Equipos médicos básicos" width="250 px" height="">
-                <li>Dispositivos médicos</li>
-                <li>Dispositivos de diagnóstico (imagenología médica)y de terapia</li>
+                <li><strong>Equipos médicos</strong></li>
+                <img src=https://img.freepik.com/vector-premium/herramientas-equipos-salud-diagnostico-medico-hospitalario-silla-dentista-silla-ruedas-transfusion-sangre-electrocardiografo-ultrasonido-conjunto-simbolos-vectoriales-maquina-rayos-x-tecnologia-moderna-medicina_229548-1987.jpg alt="Equipos médicos básicos" width="500 px" height="">
+                <li><strong>Prótesis</strong></li>
+                <img src="https://img.freepik.com/vector-premium/ilustracion-vector-protesis-bionicas-aislado-fondo-azul-protesis-pierna-brazo-clavicula-dientes-audifonos-globo-ocular-otras-partes-cuerpo_469123-553.jpg" alt="Distintos tipos de prótesis" width="500 px" height="">
+                <li><strong>Dispositivos médicos</strong></li>
+                <img src="https://st2.depositphotos.com/4090805/5907/v/450/depositphotos_59074343-stock-illustration-et-of-medical-instruments.jpg" alt="Imagen de distintos dispositivos médicos " width="500 px" height="">
+                <li> <strong>Dispositivos de diagnóstico (imagenología médica)y de terapia</strong></li>
     
               </ul>
-            ​ También interviene en la gestión o administración de los recursos técnicos ligados a un sistema de hospitales.<br>
 
-            La ingeniería biomédica ha surgido recientemente como un estudio propio, en comparación con muchos otros campos de la ingeniería. 
-            Tal evolución es común como una nueva transición de campo de ser una especialización interdisciplinaria entre campos ya establecidos a ser considerado un campo en sí mismo
+            ​<span style="font-size: 18px;">También interviene en la gestión o administración de los recursos técnicos ligados a un sistema de hospitales.<br>
+
+            La ingeniería biomédica ha surgido recientemente como un estudio propio, en comparación con muchos otros <br> campos de la ingeniería. 
+            Tal evolución es común como una nueva transición de campo  de ser una especialización <br> interdisciplinaria entre campos ya establecidos a ser considerado un campo en sí mismo. </span>​ 
         </p>
+    </div>
     </section>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/DqtlGz2B4sg?si=chfPmUNnpIYMyaxv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
     <section id="pilares">
         <!--Lista ordenada-->
-        <h2><em>Pilares:</em> </h2>
-        <ol>
-            <li>Ingeniería y Diseño</li>
-            <li>Biología y Medicina</li>
-            <li>Informática médica</li>
-            <li>Instrumentación y equipos médicos</li>
-            
+        <h3 style="text-align: center;"><em>Pilares:</em> </h3>
+        <ol style="font-size: 20px;">
+            <li><u><strong>Ingeniería y Diseño⚙️:</strong> </u>aplicación de los principios de ingeniería para diseñar y desarrollar dispositivos médicos, equipos, sistemas y tecnologías </li>
+            <li><u><strong>Biología y Medicina 🫀:</strong></u> para diseñar soluciones que se integren de manera efectiva con el cuerpo humano y aborden problemas médicos específicos.</li>
+            <li><u><strong>Informática médica💻:</strong></u>para la gestión y análisis de datos médicos, así como el desarrollo de algoritmos y software para aplicaciones médicas, bioinformática y sistemas de información clínica.</li>
+            <li><u><strong>Instrumentación y equipos médicos🦿:</strong></u> Desarrollo de instrumentos y equipos médicos avanzados.</li>  
         </ol>
     </section>
 
     <section id="campo">
-        <h2>Campo laboral</h2>
+        <h3>Campo laboral</h3>
         <ul>
             
             <li>Industria de dispositivos médicos</li>
@@ -66,11 +83,23 @@
             <li>Hospitales y centros de salud</li>
             <li>Empresas de biotecnología</li>
         </ul>
+        <img src="https://i.imgur.com/riUTuXh.png">
+
+        
+
+
     </section>
+
+    <section style="text-align: center;">
+        <h3>Aplicaciones biomédicas</h3>
+    <iframe   width="700" height="400" src="https://www.youtube.com/embed/DqtlGz2B4sg?si=chfPmUNnpIYMyaxv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</section>
+
+
 </main>
 
     <!--Pie de página-->
-    <footer>
+    <footer id="informacion">
         <h3>Más info en: </h3>
         <a href="https://es.wikipedia.org/wiki/Ingenier%C3%ADa_biom%C3%A9dica" target="_blank">Ingeniería Biomédica [wikipedia]</a><br>
         <a href="https://merida.anahuac.mx/licenciaturas/blog/ingenieria-biomedica-que-es-y-cual-es-su-campo-de-trabajo" target="_blank">Ingeniería Biomédica: ¿qué es y cuál es su campo de trabajo?</a>
